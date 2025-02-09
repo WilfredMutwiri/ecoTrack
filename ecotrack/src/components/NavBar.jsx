@@ -40,7 +40,6 @@ export default function NavBar() {
           <Navbar.Link href="/" active> Home</Navbar.Link>
          <Navbar.Link href="#">About Us</Navbar.Link>
          <Navbar.Link href="#">How It Works</Navbar.Link>
-         <Navbar.Link href="/about">Team</Navbar.Link>
          <Navbar.Link href="#">Contact Us</Navbar.Link>
          </Navbar.Collapse>
          <hr/>

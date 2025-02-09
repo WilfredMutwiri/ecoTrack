@@ -2,13 +2,22 @@ import React from 'react'
 import { Button } from "flowbite-react";
 import { Link } from "react-router-dom";
 import landingImg from '../assets/logo.webp';
+import homeVideo from '../assets/homeVideo.mp4';
 
 export default function Home() {
+    const VideoPlayer=()=>{
+        return(
+            <video width={640} height={400} controls>
+                <source src={homeVideo} type='video/mp4'/>
+                <p>Your browser does not support video playing</p>
+            </video>
+        )
+    }
     return (
         <div className="w-full bg-gray-50 ">
             <div className="block md:flex gap-5 w-11/12 md:w-10/12 pt-16 mx-auto">
             <div className='flex-1'>
-                <img className='' src={landingImg} alt='landing image'/>
+                <VideoPlayer/>
             </div>
             <div className='flex-1 leading-relaxed'>
                 <h2 className='font-bold text-2xl text-green-600'>Welcome to EcoTrack Africa.
