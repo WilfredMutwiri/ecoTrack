@@ -33,7 +33,7 @@ export default function About() {
             id:4,
             name:"Brandon Ochieng",
             phone:"+254705980652",
-            role:"software enginner/Database Engineer/Space Enthusiast",
+            role:"software enginner/Backend Dev/Space Enthusiast",
             image:brandon
         }
     ]
@@ -47,7 +47,7 @@ export default function About() {
                 </h2>
                 <div className='flex flex-col gap-2'>
                     <p>
-                    At EcoTrack Africa, we are dedicated to providing innovative solutions for environmental monitoring and waste management across the continent. Our advanced AI technologies enable real-time analytics, waste hotspot tracking, and air pollution monitoring, empowering communities to take actionable steps towards sustainability. Join us in our mission to create a cleaner, greener Africa.
+                    At EcoTrack Africa,we are dedicated to provide a platform for environmental monitoring and waste management across the continent. Our advanced AI technologies enable real-time analytics, waste hotspot tracking, and air pollution monitoring, empowering communities to take actionable steps towards sustainability. Join us in our mission to create a cleaner, greener Africa.
                     </p>
                     <h2 className='font-bold text-2xl text-green-600'>Our Mission:</h2>
                     <p>
