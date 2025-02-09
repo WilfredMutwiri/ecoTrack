@@ -15,23 +15,9 @@ export default function NavBar() {
         <div className="block md:order-2 mad:flex justify-between text-lg font-semibold text-green-600  text-center">
           <div className='flex gap-2 mt-2 ml-24 md:ml-0'>
          <div>
-            <Dropdown
-            arrowIcon={false}
-            inline
-            label={
-              <Avatar
-              alt='user'
-              rounded/>
-            }
-            >
-              <Dropdown.Header>
-                <span className='text-sm block text-cyan-700'>Wilfred</span>
-                <span className='text-sm block font-medium truncate text-green-600'>wilfred@gmail.com</span>
-              </Dropdown.Header>
-              <Link to='#'>
-                <Dropdown.Item>Sign out</Dropdown.Item>
-              </Link>
-            </Dropdown>
+          <Link to="/SignIn">
+            <Button className="w-auto mx-auto" gradientDuoTone="greenToBlue" outline>Get Started</Button>
+          </Link>
          </div>
          <Navbar.Toggle/>
          </div>

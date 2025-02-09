@@ -12,7 +12,7 @@ export default function About() {
             id:1,
             name:"Caleb Kipkazi",
             phone:"+254746567379",
-            role:"software enginner / user experience management / designer",
+            role:"Software Enginner /UX & UI management /Data Engineer",
             image:caleb
         },
         {
