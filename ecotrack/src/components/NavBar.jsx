@@ -9,10 +9,10 @@ export default function NavBar() {
        <Navbar.Brand>
        <div className="flex w-full justify-between">
         <img className='w-auto h-20' src={logo} alt='logo'/>
-        <h2 className="font-semibold text-xl my-auto -ml-5">EcoTrack<span className='text-green-600 p'>Africa</span></h2>
+        <h2 className="font-semibold text-xl my-auto -ml-5">EcoTrack<span className='text-green-600 p pl-2'>Africa</span></h2>
         </div>
        </Navbar.Brand>
-        <div className="block md:order-2 mad:flex justify-between text-lg font-semibold text-pink-700  text-center">
+        <div className="block md:order-2 mad:flex justify-between text-lg font-semibold text-green-600  text-center">
           <div className='flex gap-2 mt-2 ml-24 md:ml-0'>
          <div>
             <Dropdown
@@ -37,9 +37,11 @@ export default function NavBar() {
          </div>
           </div>
          <Navbar.Collapse>
-          <Navbar.Link href="/landing" active> Home</Navbar.Link>
-         <Navbar.Link href="/about">About Us</Navbar.Link>
-         <Navbar.Link href="#">Contact</Navbar.Link>
+          <Navbar.Link href="/" active> Home</Navbar.Link>
+         <Navbar.Link href="#">About Us</Navbar.Link>
+         <Navbar.Link href="#">How It Works</Navbar.Link>
+         <Navbar.Link href="/about">Team</Navbar.Link>
+         <Navbar.Link href="#">Contact Us</Navbar.Link>
          </Navbar.Collapse>
          <hr/>
          </Navbar>
