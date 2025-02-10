@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import {Alert, Button, Label, Spinner, TextInput} from 'flowbite-react'
 import logo from '../assets/logo.webp'
+import { Link } from 'react-router-dom';
 export default function SignIn(){
     const [welcomeText,setWelcomeText]=useState("");
     const [showPassword,setShowPassowrd]=useState(false);
@@ -50,9 +51,11 @@ export default function SignIn(){
                             />
                             <Label htmlFor='showPasswordBox'value='Show Password'/>
                         </div>
+                        <Link to="/dashboard">
                         <Button  gradientDuoTone='greenToBlue'className='w-full'>
                             Submit
                         </Button>
+                        </Link>
                     </form>
                     <p className='pt-3 text-sm'>
                         Don't have an account? <span className='text-green-600'><a href='/Signup'>Create Account</a></span>
