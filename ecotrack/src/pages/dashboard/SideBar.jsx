@@ -58,7 +58,7 @@ const Sidebar = () => {
                         </Link>
 
                         <Link to="#">
-                        <li className='p-2 hover:bg-gray-100 rounded-md text-white hover:text-green-500 cursor-pointer flex gap-3'><span><SiSimpleanalytics className="text-xl"/></span>Ream time analytics
+                        <li className='p-2 hover:bg-gray-100 rounded-md text-white hover:text-green-500 cursor-pointer flex gap-3'><span><SiSimpleanalytics className="text-xl"/></span>Real time analytics
                         </li>
                         </Link>
                         <Link to="#">

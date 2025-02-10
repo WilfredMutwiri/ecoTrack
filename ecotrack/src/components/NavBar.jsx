@@ -25,8 +25,8 @@ export default function NavBar() {
          <Navbar.Collapse>
           <Navbar.Link href="/" active> Home</Navbar.Link>
          <Navbar.Link href="/about">About Us</Navbar.Link>
-         <Navbar.Link href="#">How It Works</Navbar.Link>
-         <Navbar.Link href="#">Contact Us</Navbar.Link>
+         <Navbar.Link href="/howItWorks">How It Works</Navbar.Link>
+         <Navbar.Link href="/contact">Contact Us</Navbar.Link>
          </Navbar.Collapse>
          <hr/>
          </Navbar>

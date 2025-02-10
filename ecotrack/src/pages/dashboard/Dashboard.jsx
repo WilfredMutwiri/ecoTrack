@@ -1,16 +1,16 @@
 import React from 'react'
 import { useState,useEffect} from 'react'
 import { Button, Label, TextInput } from 'flowbite-react';
-import { GiTeacher } from "react-icons/gi";
-import { Link } from 'react-router-dom';
-import { PiStudent } from "react-icons/pi";
-import { TbBuildingWarehouse } from "react-icons/tb";
 import Sidebar from './SideBar';
 import { IoIosNotifications } from "react-icons/io";
 import { FaUserCircle } from "react-icons/fa";
 import { FaMoon } from "react-icons/fa";
 import { IoMdSunny } from "react-icons/io";
 import { PiSunHorizonFill } from "react-icons/pi";
+import { FaRegCircleRight } from "react-icons/fa6";
+import { CiImport } from "react-icons/ci";
+
+
 import analyticsImg from '../../assets/analytics.png'
 import agent from '../../assets/agent.jpg';
 import graph from '../../assets/graph.png'
@@ -92,6 +92,16 @@ export default function Dashboard() {
                         </h2>
                         <img src={"https://i.pinimg.com/originals/e6/36/ef/e636efeaac77c1d9f16971c9ab257225.gif"} className='rounded-md'/>
                         </div>
+                </div>
+                <div className='flex flex-row gap-2 bg-green-100 p-2 rounded-md'>
+                    <Button className='justify-center text-center' gradientDuoTone='greenToBlue'>Read More <FaRegCircleRight className='my-1 ml-1 text-lg' />
+                    </Button>
+                    <p className='flex-1 text-center'>
+                    Get the Latest climate change updates, waste trends, identified
+                    waste hotspots, and progress in green recovery zones.
+                    </p>
+                    <Button className='justify-center text-center' gradientDuoTone='greenToBlue'>Import Your Data <CiImport className='my-1 ml-1 text-2xl text-red-600'/>
+                    </Button>
                 </div>
             </div>
         </div>
