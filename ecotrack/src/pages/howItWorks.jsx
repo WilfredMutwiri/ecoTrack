@@ -1,49 +1,58 @@
 import React from 'react'
-import logoImg from '../assets/logo.png'
+import img1 from '../assets/img1.jpg'
+import img2 from '../assets/img2.jpg'
+import img3 from '../assets/img3.jpg'
 
 export default function HowItWorks() {
    return (
         <div className="w-full bg-gray-50 ">
             <div className="block md:flex gap-5 w-11/12 md:w-10/12 pt-16 mx-auto">
             <div className='flex-1 leading-relaxed'>
-                <img src={logoImg} className='mx-auto w-[200px] h-[200px]'/>
-                <h2 className='font-bold text-2xl text-green-600'>Welcome to EcoTrack Africa.
+                <h2 className='font-bold text-2xl text-green-600 text-center pb-5'>Welcome to EcoTrack Africa.
                 </h2>
                 <div className='flex flex-col gap-2'>
+                    <div className='flex flex-row gap-6'>
+                        <img src={img1} className='w-auto h-72'/>
                     <p>
-                    At EcoTrack Africa,we are dedicated to provide a platform for environmental monitoring and waste management across the continent. Our advanced AI technologies enable real-time analytics, waste hotspot tracking, and air pollution monitoring, empowering communities to take actionable steps towards sustainability. Join us in our mission to create a cleaner, greener Africa.
+                    EcoTrack Africa is a platform dedicated to transforming  waste management  and environmental monitoring  across Africa. By leveraging AI, satellite imagery , and real-time data, we provide actionable insights that empower urban planners, environmental agencies, and communities to make informed decisions for a cleaner and more sustainable future.
                     </p>
-                    <h2 className='font-bold text-2xl text-green-600'>How It Works:</h2>
+                    </div>
+                    <h2 className='font-bold text-2xl text-green-600 text-center pb-5 pt-5'>How It Works:</h2>
+                    <h2 className='font-bold text-2xl text-green-600'>:: Data Collection & Integration
+                    </h2>
                     <p>
-                    Eco Track Africa is a smart waste management platform that leverages AI/ML (Artificial Intelligence/Machine Learning), satellite technology, and real-time Earth observations to optimize waste collection and enhance sustainability in African cities.
+                    Uses satellite imagery and Earth observation data from Landsat, Sentinel, and Google Earth Engine for remote sensing.Incorporates public APIs like OpenStreetMap, municipal records, and crowdsourced data to enhance accuracy.Fuses historical and real-time data to detect waste hotspots and environmental changes.
                     </p>
-                    <h2 className='font-bold text-2xl text-green-600'>How it operates::</h2>
-                    <h2 className='font-bold text-lg text-green-600'>Real-Time Data Collection & Monitoring::</h2>
+                    <h2 className='font-bold text-lg text-green-600'>:: AI-Powered Waste Hotspot Detection
+                    </h2>
+                    <div className='flex flex-row gap-6'>
                     <p>
-                    Uses satellite imagery and Earth observations to track waste accumulation and green recovery zones. Incorporates traffic data to optimize waste collection routes and minimize emissions.AI-Powered Optimization
+                    AI/ML models analyze spatial and temporal waste accumulation patterns.Predicts illegal dumping zones, tracks air pollution, and monitors land cover changes.Ensures high accuracy by integrating multi-source data validation techniques.
                     </p>
-                    <h2 className='font-bold text-lg text-green-600'>AI-Powered Optimization::</h2>
+                        <img src={img3} className='w-auto h-72'/>
+                    </div>
+                    <h2 className='font-bold text-lg text-green-600'>:: User-Friendly & AI-Assisted Insights
+                    </h2>
                     <p>
-                    AI and ML analyze waste patterns to suggest the most efficient collection strategies.
-                    Helps city planners, urban developers, and traffic engineers make data-driven decisions to improve waste management efficiency.
+                    A simple dashboard provides real-time visualizations, predictive analytics, and automated reports.Users can import custom datasets and use AI assistants to generate insights.Designed for ease of use by city officials, environmentalists, and researchers.
                     </p>
-                    <h2 className='font-bold text-lg text-green-600'>Community Engagement & Reporting::</h2>
-                    <p>
-                    Empowers communities to report waste issues via a web and mobile application.
-                    Increases community participation in waste management efforts.
+                    <h2 className='font-bold text-lg text-green-600'>:: Community Engagement & Actionable Insights
+                    </h2>
+                    <div className='flex flex-row gap-6'>
+                        <img src={img2} className='w-auto h-72'/>
+                        <p>
+                    Empowers citizens and environmental agencies to collaborate through real-time data sharing.
+                    Helps policymakers take proactive steps in waste management before issues escalate.
                     </p>
-                    <h2 className='font-bold text-lg text-green-600'>Sustainability & Impact::</h2>
+                    </div>
+                    <h2 className='font-bold text-lg text-green-600'>:: Sustainability & Impact
+                    </h2>
                     <p>
-                    Aims to reduce carbon emissions by optimizing collection routes.
-                    Supports urban sustainability through data-driven waste management solutions.
+                    Reduces carbon emissions by optimizing waste management strategies.Supports urban resilience and sustainability through data-driven decision-making.Enhances public health by minimizing pollution exposure in high-risk areas.Target Market & StrategyFocuses on urban centers and cities like Nairobi, Lagos, Johannesburg, and Cairo.Partners with municipalities, waste management companies, and environmental organizations.Aims to capture 10% of the urban waste management sector, valued at approximately $300 million.
                     </p>
-                    <h2 className='font-bold text-lg text-green-600'>Target Market & Strategy::</h2>
+                    <h2 className='font-bold text-lg text-green-600'>:: Competitive Advantage</h2>
                     <p>
-                    Eco Track Africa focuses on urban centers like Nairobi, Lagos, Johannesburg, and Cairo, collaborating with municipalities, waste management companies, and environmental agencies. The goal is to capture 10% of the urban waste management sector, valued at approximately $300 million.
-                    </p>
-                    <h2 className='font-bold text-lg text-green-600'>Competitive Advantage::</h2>
-                    <p>
-                    The platform differentiates itself by combining advanced AI analytics, satellite data, and community engagement, offering actionable insights for sustainable and efficient waste management.
+                    Unlike standalone satellite tools like Landsat and Sentinel, EcoTrack Africa integrates AI-powered waste prediction, real-time monitoring, and public engagement in one platform.Combines satellite data, municipal records, and crowdsourced reports for high-accuracy environmental monitoring.Provides automated insights that allow cities to act before waste and pollution become a crisis.EcoTrack Africa is shaping the future of smart waste hotspot and  environmental monitoring, making African cities cleaner, healthier, and more sustainable
                     </p>
                 </div>
             </div>
