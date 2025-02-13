@@ -40,7 +40,7 @@ export default function Home() {
                     </div>
                 </div>
 
-            <Link to="/SignIn">
+            <Link to="/dashboard">
             <Button className="w-11/12 md:w-56 mt-14 mx-auto" gradientDuoTone="greenToBlue">Get Started</Button>
             </Link>
             </div>

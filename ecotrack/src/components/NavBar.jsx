@@ -15,7 +15,7 @@ export default function NavBar() {
         <div className="block md:order-2 mad:flex justify-between text-lg font-semibold text-green-600  text-center">
           <div className='flex gap-2 mt-2 ml-24 md:ml-0'>
          <div>
-          <Link to="/SignIn">
+          <Link to="/dashboard">
             <Button className="w-auto mx-auto" gradientDuoTone="greenToBlue" outline>Get Started</Button>
           </Link>
          </div>

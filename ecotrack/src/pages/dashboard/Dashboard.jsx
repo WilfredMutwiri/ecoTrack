@@ -90,7 +90,7 @@ export default function Dashboard() {
                         <div className='bg-gray-200 p-3 rounded-md shadow-md hover:shadow-none shadow-gray-200 flex-1'>
                         <h2 className='font-semibold text-lg pt-3'>environmental impact metrics
                         </h2>
-                        <img src={"https://i.pinimg.com/originals/e6/36/ef/e636efeaac77c1d9f16971c9ab257225.gif"} className='rounded-md'/>
+                        <img src={"https://i.pinimg.com/originals/dc/41/b2/dc41b21bb39da4d76a8c9872eb5b1c05.gif"} alt="satellite" className='rounded-md'/>
                         </div>
                 </div>
                 <div className='flex flex-row gap-2 bg-green-100 p-2 rounded-md'>
