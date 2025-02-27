@@ -1,7 +1,7 @@
 import React from 'react'
 import {BsFacebook,BsInstagram,BsTwitterX,BsWhatsapp} from 'react-icons/bs'
 import { Footer, FooterTitle } from "flowbite-react";
-import logo from '../assets/logo.webp';
+import logo from '../assets/logo.png';
 
 export default function FooterComp() {
     return (
@@ -11,11 +11,11 @@ export default function FooterComp() {
                     <div className="w-full">
                     <div className="block md:flex justify-between">
                         <div className=''>
-                        <div className="flex w-full justify-between">
+                        <div className="flex w-full ">
                         <img className='w-auto h-20' src={logo} alt='logo'/>
-                        <h2 className="font-semibold text-xl my-auto -ml-5">EcoTrack<span className='text-green-600 p pl-2'>Africa</span></h2>
+                        <h2 className="font-semibold text-xl my-auto -ml-5">LISHE<span className='text-green-600'>Track</span></h2>
                         </div>
-                        <h2 className="text-sm italic mb-3 mt-2 md:mt-0 md:mb-0">Create a cleaner, greener Africa</h2>
+                        <h2 className="text-sm italic mb-3 mt-2 md:mt-0 md:mb-0">Tracking Nutrition, Transforming Markets.</h2>
                         </div>
                         <div className="grid grid-cols-3 gap-4">
                             <div>
@@ -51,7 +51,7 @@ export default function FooterComp() {
                     </div>
                     <Footer.Divider/>
                     <div>
-                    <Footer.Copyright by="EcoTrackAfrica" className='text-center' year={new Date().getFullYear()} />
+                    <Footer.Copyright by="LISHETrack" className='text-center' year={new Date().getFullYear()} />
                     <div className="flex gap-6 mt-2 w-40 mx-auto">
                         <Footer.Icon href="#" icon={BsFacebook}/>
                         <Footer.Icon href="#" icon={BsInstagram}/>

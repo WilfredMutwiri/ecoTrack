@@ -2,14 +2,14 @@ import React from 'react';
 "use client";
 import { Avatar, Button, Dropdown, Navbar } from "flowbite-react";
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.webp';
+import logo from '../assets/logo.png';
 export default function NavBar() {
   return (
     <Navbar fluid rounded className='w-full justify-between'>
        <Navbar.Brand>
        <div className="flex w-full justify-between">
         <img className='w-auto h-20' src={logo} alt='logo'/>
-        <h2 className="font-semibold text-xl my-auto -ml-5">EcoTrack<span className='text-green-600 p pl-2'>Africa</span></h2>
+        <h2 className="font-semibold text-xl my-auto -ml-7"> LISHE<span className='text-green-600 '>Track</span></h2>
         </div>
        </Navbar.Brand>
         <div className="block md:order-2 mad:flex justify-between text-lg font-semibold text-green-600  text-center">
@@ -25,8 +25,11 @@ export default function NavBar() {
          <Navbar.Collapse>
           <Navbar.Link href="/" active> Home</Navbar.Link>
          <Navbar.Link href="/about">About Us</Navbar.Link>
-         <Navbar.Link href="/howItWorks">How It Works</Navbar.Link>
-         <Navbar.Link href="/contact">Contact Us</Navbar.Link>
+         <Navbar.Link href="/howItWorks">Features </Navbar.Link>
+         <Navbar.Link href="/MarketPlace">Features </Navbar.Link>
+         <Navbar.Link href="/Track crops">Features </Navbar.Link>
+         <Navbar.Link href="/Training hub">Features </Navbar.Link>
+         <Navbar.Link href="/contact Us">Contact Us</Navbar.Link>
          </Navbar.Collapse>
          <hr/>
          </Navbar>
