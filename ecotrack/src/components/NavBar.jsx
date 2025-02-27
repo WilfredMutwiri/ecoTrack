@@ -25,10 +25,10 @@ export default function NavBar() {
          <Navbar.Collapse>
           <Navbar.Link href="/" active> Home</Navbar.Link>
          <Navbar.Link href="/about">About Us</Navbar.Link>
-         <Navbar.Link href="/howItWorks">Features </Navbar.Link>
-         <Navbar.Link href="/MarketPlace">Features </Navbar.Link>
-         <Navbar.Link href="/Track crops">Features </Navbar.Link>
-         <Navbar.Link href="/Training hub">Features </Navbar.Link>
+         <Navbar.Link href="/features">Features </Navbar.Link>
+         <Navbar.Link href="/MarketPlace">MarketPlace </Navbar.Link>
+         <Navbar.Link href="/Track crops">Track crops</Navbar.Link>
+         <Navbar.Link href="/Training hub">Training hub</Navbar.Link>
          <Navbar.Link href="/contact Us">Contact Us</Navbar.Link>
          </Navbar.Collapse>
          <hr/>

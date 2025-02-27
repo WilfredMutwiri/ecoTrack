@@ -1486,16 +1486,16 @@ input[type="range"]::-ms-fill-lower {
   height: 1.25rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
 
 .h-7 {
   height: 1.75rem;
-}
-
-.h-72 {
-  height: 18rem;
 }
 
 .h-8 {
@@ -1512,10 +1512,6 @@ input[type="range"]::-ms-fill-lower {
 
 .h-\[200px\] {
   height: 200px;
-}
-
-.h-\[250px\] {
-  height: 250px;
 }
 
 .h-auto {
@@ -1537,10 +1533,6 @@ input[type="range"]::-ms-fill-lower {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-80 {
-  height: 20rem;
 }
 
 .max-h-\[90dvh\] {
@@ -1647,12 +1639,8 @@ input[type="range"]::-ms-fill-lower {
   width: 2.25rem;
 }
 
-.w-\[240px\] {
-  width: 240px;
-}
-
-.w-\[400px\] {
-  width: 400px;
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .w-auto {
@@ -1671,10 +1659,6 @@ input[type="range"]::-ms-fill-lower {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[100\%\] {
-  width: 100%;
 }
 
 .min-w-11 {
@@ -1969,10 +1953,6 @@ input[type="range"]::-ms-fill-lower {
   gap: 1.5rem;
 }
 
-.gap-7 {
-  gap: 1.75rem;
-}
-
 .-space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(-1rem * var(--tw-space-x-reverse));
@@ -2223,6 +2203,11 @@ input[type="range"]::-ms-fill-lower {
 .border-blue-500 {
   --tw-border-opacity: 1;
   border-color: rgb(63 131 248 / var(--tw-border-opacity, 1));
+}
+
+.border-blue-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(28 100 242 / var(--tw-border-opacity, 1));
 }
 
 .border-cyan-300 {
@@ -3013,16 +2998,16 @@ input[type="range"]::-ms-fill-lower {
   padding-bottom: 1rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .pb-2\.5 {
   padding-bottom: 0.625rem;
 }
 
-.pb-3 {
-  padding-bottom: 0.75rem;
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pb-5 {
@@ -3043,10 +3028,6 @@ input[type="range"]::-ms-fill-lower {
 
 .pl-16 {
   padding-left: 4rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
 }
 
 .pl-2\.5 {
@@ -3091,10 +3072,6 @@ input[type="range"]::-ms-fill-lower {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
 }
 
 .pt-2 {
@@ -6032,10 +6009,6 @@ input[type="range"]::-ms-fill-lower {
 
   .md\:h-full {
     height: 100%;
-  }
-
-  .md\:w-10\/12 {
-    width: 83.333333%;
   }
 
   .md\:w-48 {
