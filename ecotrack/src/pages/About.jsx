@@ -1,46 +1,13 @@
 import React from 'react'
 import { Button } from "flowbite-react";
 import { Link } from "react-router-dom";
-import caleb from '../assets/caleb.jpeg';
-import wilfred from '../assets/wilfred.jpeg';
-import gillo from '../assets/gillo.jpg'
-import brandon from '../assets/brandon.jpg'
+
 import banner2 from '../assets/banner2.jpg';
 
 export default function About() {
-    const teamData=[
-        {
-            id:1,
-            name:"Caleb Kipkazi",
-            phone:"+254746567379",
-            role:"Software Enginner /UX & UI management /Data Engineer",
-            image:caleb
-        },
-        {
-            id:2,
-            name:"Wilfred Mutwiri",
-            phone:"+254745567568",
-            role:"software enginner/geospatial analysis",
-            image:wilfred
-        },
-        {
-            id:3,
-            name:"Brian Gillo",
-            phone:"+254741428123",
-            role:"software enginner/AI & ML Engineer/ Space Enthusiast",
-            image:gillo
-        },
-        {
-            id:4,
-            name:"Brandon Ochieng",
-            phone:"+254705980652",
-            role:"software enginner/Backend Dev/Space Enthusiast",
-            image:brandon
-        }
-    ]
    return (
         <div className="w-full bg-gray-50 ">
-            <div className="block gap-5 w-11/12 md:w-10/12 mx-auto">
+            <div className="block gap-5 w-11/12 mx-auto">
             <div className='flex-1'>
                 <img src={banner2} className='w-[100%] h-96 object-cover'/>
             </div>

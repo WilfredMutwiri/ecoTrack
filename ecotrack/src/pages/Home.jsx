@@ -7,7 +7,7 @@ import banner1 from '../assets/banner1.jpg';
 export default function Home() {
     return (
         <div className="w-full bg-gray-50 ">
-            <div className="block gap-5 w-11/12 md:w-10/12 mx-auto">
+            <div className="block gap-5 w-11/12 mx-auto">
             <div className='flex-1'>
                 <img src={banner1} className='w-[100%] h-96 object-cover'/>
             </div>
