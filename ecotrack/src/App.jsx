@@ -9,6 +9,8 @@ import Dashboard from './pages/dashboard/Dashboard'
 import HowItWorks from './pages/howItWorks'
 import ContactPage from './pages/Contact'
 import MarketPlace from './pages/marketPlace'
+import TrackCrops from './pages/trackCrops'
+import Traininghub from './pages/Traininghub'
 function App() {
   return (
     <>
@@ -20,6 +22,8 @@ function App() {
             <Route path='/about' element={<About/>}/>
             <Route path='/features' element={<HowItWorks/>}/>
             <Route path='/marketPlace' element={<MarketPlace/>}/>
+            <Route path='/Trackcrops' element={<TrackCrops/>}/>
+            <Route path='/Traininghub' element={<Traininghub/>}/>
             <Route path='/contact' element={<ContactPage/>}/>
             <Route path='/dashboard' element={<Dashboard/>}/>
           </Routes>

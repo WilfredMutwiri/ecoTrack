@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button,Label, Textarea, TextInput } from "flowbite-react";
-import logo from '../assets/logo.png';
+import logo from '../assets/banner7.jpg';
 const ContactPage = () => {
     return (
         <div>
@@ -35,7 +35,7 @@ const ContactPage = () => {
                     </div>
                     <div className='flex flex-col gap-2'>
                         <Label htmlFor="message" value="Message" />
-                        <Textarea id="email" type="email" placeholder="Hello EcoTrack Africa..." className='h-44' required />
+                        <Textarea id="email" type="email" placeholder="Hello LISHETrack..." className='h-36' required />
                     </div>
                     <Button type='submit' gradientDuoTone='greenToBlue'>Submit</Button>
                 </form>

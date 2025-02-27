@@ -63,11 +63,11 @@ export default function HowItWorks() {
                     </div>
 
                     <Link to="/dashboard">
-                            <Button className="w-11/12 md:w-56 mt-14 mx-auto" gradientDuoTone="greenToBlue">Join US Today!</Button>
-                        </Link>
+                        <Button className="w-11/12 md:w-56 mt-14 mx-auto" gradientDuoTone="greenToBlue">Join US Today!</Button>
+                    </Link>
                 </div>
             </div>
-            </div>
+            </div>      
         </div>
     );
 }

@@ -27,9 +27,9 @@ export default function NavBar() {
          <Navbar.Link href="/about">About Us</Navbar.Link>
          <Navbar.Link href="/features">Features </Navbar.Link>
          <Navbar.Link href="/MarketPlace">MarketPlace </Navbar.Link>
-         <Navbar.Link href="/Track crops">Track crops</Navbar.Link>
-         <Navbar.Link href="/Training hub">Training hub</Navbar.Link>
-         <Navbar.Link href="/contact Us">Contact Us</Navbar.Link>
+         <Navbar.Link href="/Trackcrops">Track crops</Navbar.Link>
+         <Navbar.Link href="/Traininghub">Training hub</Navbar.Link>
+         <Navbar.Link href="/contact">Contact Us</Navbar.Link>
          </Navbar.Collapse>
          <hr/>
          </Navbar>
